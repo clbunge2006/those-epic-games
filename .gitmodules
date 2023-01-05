@@ -1,0 +1,6 @@
+[submodule "epicgames-freebies-claimer"]
+	path = epicgames-freebies-claimer
+	url = https://github.com/Revadike/epicgames-freebies-claimer
+[submodule "DeviceAuthGenerator"]
+	path = DeviceAuthGenerator
+	url = https://github.com/jackblk/DeviceAuthGenerator
