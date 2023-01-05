@@ -1,7 +1,15 @@
 @echo off
 set __ACTIVE_DIR__=%~dp0
 set __COMMAND_MODE__=%1
-echo File Location: %__ACTIVE_DIR__%
+:: DEBUGGING LINE, PLEASE IGNORE	echo File Location: %__ACTIVE_DIR__%
+
+if NOT EXIST "%__ACTIVE_DIR__%\epicgames-freebies-claimer\data\device_auths.json" (
+    echo [45m
+    echo Setup has not been completed, device_auths.json is missing from the data folder.
+    echo   [0m
+    sleep 3
+    exit /b -1
+)
 
 if NOT [%1]==[] (
     npm run --prefix %__ACTIVE_DIR__%/epicgames-freebies-claimer
