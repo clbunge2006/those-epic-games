@@ -17,3 +17,5 @@ These programs must be installed and up-to-date to ensure functionality.
 4. Run DeviceAuthGenerator and sign in when prompted; `python DeviceAuthGenerator/generator.py` *if this errors, attempt to run with python3 instead of python*
 5. Copy the generated authenticated json to freebies-claimer; `cp DeviceAuthGenerator/device_auths.json epicgames-freebies-claimer/data`
 6. Run the provided batch file, **run.bat**, to setup automatic execution; `run.bat` *be sure to run this in administrator mode* 
+
+![Oh how i love the epic games store!](https://media.tenor.com/GLTbAke0WUAAAAAC/epic-games-epic.gif)
